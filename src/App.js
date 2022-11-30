@@ -8,11 +8,11 @@ function App() {
 
   //locker
   const [locker, setLocker] = useState([]);
+  const [inLocker, setInLocker] = useState(false);
 
   //sport / region
   const [sport, setSport] = useState("");
   const [region, setRegion] = useState("");
-  const [inLocker, setInLocker] = useState(false);
 
   //let lockerCost = 0;
   const sumLocker = () => {
@@ -289,94 +289,3 @@ function App() {
 }
 
 export default App;
-
-// style="border-style: solid; border-width: 5px; border-color: red;"
-
-{
-  /* <h2>Cart</h2>
-        {keys.map((key) => (
-          <p>
-            {key} {cart.get(key)}
-          </p>
-        ))} */
-}
-
-// () =>
-//                   setJerseysToDisplay(
-//                     jerseyData.filter((jersey) => jersey.sport === "Baseball")
-//                   )
-
-{
-  /* <div>
-            <button
-              onClick={() => setJerseysToDisplay(jerseyData)}
-              //should also uncheck all checkboxes
-              className="addToFavoritesButton"
-            >
-              Reset Filters
-            </button>
-          </div> */
-}
-
-// const filterSport = (sport, checked) => {
-//   if (!checked) {
-//     setJerseysToDisplay(
-//       [...jerseysToDisplay].filter((jersey) => jersey.sport === sport)
-//     );
-//   } else {
-//     //we're unfiltering now
-//     console.log("yo");
-//     const filteredJerseyData = jerseyData.filter(
-//       (jersey) => jersey.sport !== sport
-//     );
-//     setJerseysToDisplay([...jerseysToDisplay, ...filteredJerseyData]);
-//     //we're filtering jerseyData to get a list of all the jerseys that have that attribute. Then, we're appending it onto [...jerseysToDisplay]
-//     //if you click two "Types, then nothing should show up"
-//   }
-// };
-
-// const filterRegion = (region, checked) => {
-//   if (!checked) {
-//     setJerseysToDisplay(
-//       [...jerseysToDisplay].filter((jersey) => jersey.region === region)
-//     );
-//   } else {
-//     //we're unfiltering now
-//     console.log("yo");
-//     const filteredJerseyData = jerseyData.filter(
-//       (jersey) => jersey.region !== region
-//     );
-//     setJerseysToDisplay([...jerseysToDisplay, ...filteredJerseyData]);
-//     //we're filtering jerseyData to get a list of all the jerseys that have that attribute. Then, we're appending it onto [...jerseysToDisplay]
-//     //if you click two "Types, then nothing should show up"
-//   }
-// };
-
-// const filterLocker = (region) => {
-//   setJerseysToDisplay(
-//     [...jerseysToDisplay].filter((jersey) => locker.includes(jersey))
-//   );
-// };
-
-//below we're taking the already existing display and adding on the new color that someone has checked
-//setJerseysToDisplay(jerseysToDisplay..., (jerseyData.filter((jersey) => jersey.color === color))):
-
-// const keys = [...Array.from(cart.keys())];
-
-{
-  /* {allSports.map((sport, index) => {
-              return (
-                <div>
-                  <input
-                    type="checkbox"
-                    id={`custom-checkbox-${index}`}
-                    name={sport}
-                    value={sport}
-                    checked={sportCheckedState[index]}
-                    onChange={() => checkOrUncheckSports(index)}
-                  />
-                  <label htmlFor={`custom-checkbox-${index}`}>{sport}</label>
-                </div>
-              );
-            })} */
-}
