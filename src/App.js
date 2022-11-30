@@ -85,27 +85,6 @@ function App() {
       <h1>Jersey Locker</h1>
       <div className="filterAndLocker ">
         <div className="sorter-container">
-          <div className="number-selection">
-            <p>Sort By</p>
-            <div className="textLeft">
-              <input
-                type="radio"
-                value="Popular"
-                name="popularity"
-                onChange={sortPopular}
-              />{" "}
-              Popular
-            </div>
-            <div className="textLeft">
-              <input
-                type="radio"
-                value="Unpopular"
-                name="popularity"
-                onChange={sortUnpopular}
-              />{" "}
-              Least Popular
-            </div>
-          </div>
           <div className="sport-selection">
             <p>Filter by Sport</p>
             <div className="textLeft">
@@ -231,6 +210,27 @@ function App() {
                 }}
               />{" "}
               Southwest
+            </div>
+          </div>
+          <div className="number-selection">
+            <p>Sort By</p>
+            <div className="textLeft">
+              <input
+                type="radio"
+                value="Popular"
+                name="popularity"
+                onChange={sortPopular}
+              />{" "}
+              Popular
+            </div>
+            <div className="textLeft">
+              <input
+                type="radio"
+                value="Unpopular"
+                name="popularity"
+                onChange={sortUnpopular}
+              />{" "}
+              Least Popular
             </div>
           </div>
           <br></br>
