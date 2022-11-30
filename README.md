@@ -16,5 +16,5 @@ I was sure to create a JerseyItem component that I could render by mapping. This
 Data is passed from jersey-data.json to App.js where it is mapped into many JerseyItem components. The JerseyItem components are found in components/JerseyItem.js. 
 
 ### How the User Triggers State Changes
-The user triggers state changes every time they select a different radio button or add an item to their locker. I use the useEffect hook to change the jerseys that are displayed after state changes. There is a state for which sport is selected, which region is selected, and if the locker is selected or not. Every time a different one of these options is selected, the state updates. I also have a state to determine which jerseys are shown. 
+The user triggers state changes every time they select a different radio button or add an item to their locker. I use the useEffect hook to change the jerseys that are displayed after state changes. There is a state for which sport is selected, which region is selected, and if the locker is selected or not. Every time a different one of these options is selected, the state updates. I also have a state to determine which jerseys are shown. This state is called jerseysToDisplay. 
 
