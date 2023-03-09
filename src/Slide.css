@@ -1,0 +1,52 @@
+/* .containerSlide {
+  width: 550px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  /* background-size: cover; }*/
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+}
+
+.each-slide-effect span {
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.frame {
+  height: 560px; /* Can be anything */
+  width: 560px; /* Can be anything */
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: "row";
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  /* top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+  margin: auto;
+}

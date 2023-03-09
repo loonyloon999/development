@@ -28,93 +28,6 @@
   color: #61dafb;
 }
 
-.filterAndLocker {
-  display: flex;
-  flex-direction: "row";
-}
-
-/* .region-selection {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-} */
-
-.textLeft {
-  text-align: left;
-}
-
-.sorter-container {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 700px;
-  max-height: 700px;
-}
-/* 
-.sport-selection {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-}
-
-.color-selection {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-}
-
-.locker-selection {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-} */
-
-.jersey-container {
-  margin-bottom: 15%;
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: red; */
-}
-
-/* displays all the jerseys in a row rather than a vertical list */
-.display-locker {
-  display: inline-block;
-}
-
-.addToFavoritesButton {
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #ffffff;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: red;
-  text-align: center;
-  transition: all 0.2s;
-  margin-right: 30%;
-  margin-left: 30%;
-  min-width: 135px;
-  max-width: 135px;
-  min-height: 60px;
-  max-height: 60px;
-}
-
-.addToFavoritesButton:hover {
-  color: #000000;
-  background-color: red;
-}
-
-/* above three blocks for buttons are from "https://fdossena.com/?p=html5cool/buttons/i.frag" */
-
-/* image */
-.sizeImage {
-  height: 15rem;
-  width: 17rem;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -123,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.mapStyle {
+  /* height: "50%";
+  width: "50%"; */
+  position: "absolute";
+  margin: auto;
+}
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .containerSlide {
+  width: 150px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.containerSlide img {
+  height: 100px;
+} */
