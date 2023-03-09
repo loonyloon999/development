@@ -117,7 +117,7 @@ function App() {
       <div id="Xaco Taco">
         <Slideshow
           place={"Xaco Taco"}
-          pictures={[Xaco1, Xaco2, Xaco3]}
+          pictures={[Xaco2, Xaco1, Xaco3]}
           backgroundC={"grey"}
         ></Slideshow>
       </div>
