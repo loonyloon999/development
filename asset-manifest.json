@@ -1,27 +1,13 @@
 {
   "files": {
-    "main.css": "/development/static/css/main.e7513110.css",
-    "main.js": "/development/static/js/main.36cf5b56.js",
-    "static/media/SpringWeekend1.PNG": "/development/static/media/SpringWeekend1.e7076e80376d97a0fbfc.PNG",
-    "static/media/Froyo1.jpg": "/development/static/media/Froyo1.38c2633385c86d37caa6.jpg",
-    "static/media/Froyo2.jpg": "/development/static/media/Froyo2.c79a12e342c4c57a53e1.jpg",
-    "static/media/Football1.JPG": "/development/static/media/Football1.5159aaa20af6a34a6f26.JPG",
-    "static/media/Football2.jpg": "/development/static/media/Football2.f6c716512fb48e2d1750.jpg",
-    "static/media/Xaco3.jpg": "/development/static/media/Xaco3.7e418baa824b04f25424.jpg",
-    "static/media/Football3.jpg": "/development/static/media/Football3.a6e234c1ddd6b40f3c26.jpg",
-    "static/media/Okemo1.jpg": "/development/static/media/Okemo1.84c8e39aa381c6670ced.jpg",
-    "static/media/Okemo2.JPG": "/development/static/media/Okemo2.619ed8b3b8ff85b08785.JPG",
-    "static/media/Vermont1.jpg": "/development/static/media/Vermont1.102c6930826eeb31223b.jpg",
-    "static/media/Xaco2.jpg": "/development/static/media/Xaco2.29cd8d81361cb58b50b3.jpg",
-    "static/media/Xaco1.jpg": "/development/static/media/Xaco1.4976b09fe5695b5634ee.jpg",
-    "static/media/Downtown1.jpg": "/development/static/media/Downtown1.28f2ac6f978fbbad95f1.jpg",
-    "static/media/Monadnock1.jpg": "/development/static/media/Monadnock1.cca529185a31a9ede668.jpg",
+    "main.css": "/development/static/css/main.9c2224b4.css",
+    "main.js": "/development/static/js/main.dce74694.js",
     "index.html": "/development/index.html",
-    "main.e7513110.css.map": "/development/static/css/main.e7513110.css.map",
-    "main.36cf5b56.js.map": "/development/static/js/main.36cf5b56.js.map"
+    "main.9c2224b4.css.map": "/development/static/css/main.9c2224b4.css.map",
+    "main.dce74694.js.map": "/development/static/js/main.dce74694.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7513110.css",
-    "static/js/main.36cf5b56.js"
+    "static/css/main.9c2224b4.css",
+    "static/js/main.dce74694.js"
   ]
 }
